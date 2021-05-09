@@ -6,6 +6,7 @@ object OOP_basics extends App{
 
     println(m.apply())
     println(m())    
+    println(m.isAlive())
 
 }
 
@@ -19,6 +20,6 @@ class Module2(var name:String, var age:Int){ // using a var before a function wi
 
         // postfix notation
         def apply() : String = s"this is a test for the faint hearted $name"
-
+        def isAlive() : Boolean => 1==2
 
     }
