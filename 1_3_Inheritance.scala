@@ -1,4 +1,4 @@
-object Inheritance_demo extends App{
+object Inheritance extends App{
 
     
     class Animal(feet:Int = 4,fur:Boolean){
