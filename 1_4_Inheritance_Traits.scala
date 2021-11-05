@@ -5,7 +5,7 @@ object Inheritance_Traits extends App{
     //  - mult traits can be inherited by same class 
     abstract class Animal{
         val n_legs = 4
-        def nocturnal):Boolean   //
+        def nocturnal:Boolean  = false  //
     }
 
     trait Mammal{
