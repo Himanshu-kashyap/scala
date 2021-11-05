@@ -1,4 +1,15 @@
 object OOP_basics extends App{
+
+    // class vs instantiation
+    //      a class organizes data and behavior ie code
+    //      instantiation is the concrete realization in the memory that conform to actual data structure of the class
+
+
+
+
+
+
+
     var m = new Module2("Elephant",100)
     println(m another "amar") // synctactic sugar i.e. using natural language 
     println(m.another("amar")) // same as above but does not resemble natural language
@@ -9,6 +20,9 @@ object OOP_basics extends App{
     println(m.isAlive())
 
 }
+
+// providing with arguments in class argument is equivalent to constructor
+
 
 // class parameters are different from class fields
 class Module2(var name:String, var age:Int){ // using a var before a function will make it a 
